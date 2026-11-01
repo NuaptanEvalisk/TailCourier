@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=TailCourier
+GenericName=Taildrop File Transfer
+Comment=Send and receive files using Tailscale
+Exec=tailcourier --send -- %F
+Icon=mail-send
+Terminal=false
+Categories=Qt;KDE;Network;FileTransfer;
+StartupNotify=true

@@ -1,0 +1,9 @@
+[Global]
+IconName=mail-send
+Name=TailCourier
+Comment=Taildrop file transfer
+
+[Event/received]
+Name=Files received
+Comment=Taildrop files have been saved
+Action=Popup

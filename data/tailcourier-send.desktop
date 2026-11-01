@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Service
+Name=TailCourier
+MimeType=application/octet-stream;
+X-KDE-ServiceTypes=KonqPopupMenu/Plugin
+X-KDE-Protocols=file
+X-KDE-Priority=TopLevel
+Actions=send;
+
+[Desktop Action send]
+Name=Send with TailCourier
+Icon=mail-send
+Exec=tailcourier --send -- %F
