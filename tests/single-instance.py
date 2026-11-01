@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# SPDX-FileCopyrightText: 2026 TailCourier contributors
+# SPDX-FileCopyrightText: 2026 Nuaptan Evalisk
 # SPDX-License-Identifier: GPL-3.0-only
 """Run under a private dbus-run-session; never invoke the real Tailscale."""
 import os, pathlib, subprocess, sys, tempfile, time

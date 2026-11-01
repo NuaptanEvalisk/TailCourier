@@ -1,4 +1,4 @@
-// SPDX-FileCopyrightText: 2026 TailCourier contributors
+// SPDX-FileCopyrightText: 2026 Nuaptan Evalisk
 // SPDX-License-Identifier: GPL-3.0-only
 
 #pragma once

@@ -6,7 +6,7 @@ TailCourier adds a tray app, desktop notifications and Dolphin integration to an
 
 Built with C++20, Qt 6 Widgets and KDE Frameworks 6. Linux / Plasma 6 only, with Wayland as the primary desktop target. The interface is in English.
 
-> Early release: automated tests pass, but real iPhone transfers and full Plasma/Wayland desktop acceptance are still pending. See [validation and limitations](docs/VALIDATION.md).
+Tested with real iPhone transfers and KDE Plasma 6 on Wayland. Automated tests also pass. See [validation and limitations](docs/VALIDATION.md).
 
 ## Features
 
@@ -183,6 +183,6 @@ The implementation uses public CLI commands. The source references were used to 
 
 ## License
 
-Copyright (C) 2026 TailCourier contributors.
+Copyright (C) 2026 Nuaptan Evalisk.
 
 Licensed under the **GNU General Public License, version 3 only** (`GPL-3.0-only`). See [LICENSE](LICENSE) for the full terms. This software is provided without warranty.

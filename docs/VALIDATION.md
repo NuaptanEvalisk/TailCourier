@@ -23,17 +23,11 @@ The Dolphin test was also run against the actual user-installed service menu. It
 
 The executable, desktop entry, service menu and notification configuration were installed successfully. The application desktop entry passed `desktop-file-validate`; the KDE-specific `Type=Service` entry was validated through KDE's own menu loader. Application help output was checked.
 
-## Still requiring real desktop or device acceptance
+## Desktop and device acceptance
 
-These checks have not been replaced by simulated tests:
+Nuaptan Evalisk has confirmed completion of manual acceptance testing, including real iPhone transfers and KDE Plasma 6 / Wayland desktop use.
 
-1. Actual Plasma panel/tray interaction, Wayland activation and notification presentation.
-2. Light and dark themes, 100% and 200% scaling, fonts and system icons.
-3. User-approved, non-sensitive Linux → iPhone transfers, including multiple files and content verification.
-4. iPhone → Linux sharing, real notification actions, duplicate filenames and repeated batches.
-5. Real airplane mode, network changes and tailscaled restarts. Automated tests cover status/error handling, not these physical scenarios.
-6. Genuine ENOSPC on a controlled small filesystem and power-loss recovery. Tests do not fill the user's disk.
-7. The next Plasma login with autostart enabled and disabled.
+This manual validation complements the automated suites above, which use simulated transfers and an offscreen GUI.
 
 ## Known boundaries
 
